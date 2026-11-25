@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn English - English Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">LE</span><span>Learn English</span></div>
+    <nav><a href="#home">Trang chủ</a><a href="#vocabulary">Từ vựng</a><a href="#quiz">Kiểm tra</a><a href="#progress">Tiến độ</a></nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">ENGLISH LEARNING PLATFORM</p>
+        <h1>Học tiếng Anh<br><span>mỗi ngày một chút.</span></h1>
+        <p class="hero-copy">Học từ vựng theo chủ đề, luyện tập qua câu hỏi trắc nghiệm và theo dõi kết quả học tập của bạn.</p>
+        <a class="primary-btn" href="#vocabulary">Bắt đầu học</a>
+      </div>
+      <div class="hero-card">
+        <div class="book-icon">📘</div>
+        <p class="hero-card-title">Daily learning</p>
+        <h2>10 phút</h2>
+        <p>Mỗi ngày để tiến bộ hơn</p>
+      </div>
+    </section>
+
+    <section class="stats" id="progress">
+      <article><span class="stat-icon">📚</span><div><strong id="learnedCount">0</strong><small>Từ đã học</small></div></article>
+      <article><span class="stat-icon">🎯</span><div><strong id="quizCount">0</strong><small>Lượt kiểm tra</small></div></article>
+      <article><span class="stat-icon">⭐</span><div><strong id="bestScore">0%</strong><small>Điểm cao nhất</small></div></article>
+    </section>
+
+    <section class="section" id="vocabulary">
+      <div class="section-heading"><div><p class="eyebrow">BUILD YOUR VOCABULARY</p><h2>Học từ vựng</h2></div><span class="pill">Chủ đề: Cơ bản</span></div>
+      <div class="word-grid" id="wordGrid"></div>
+    </section>
+
+    <section class="section quiz-section" id="quiz">
+      <div class="section-heading"><div><p class="eyebrow">TEST YOUR KNOWLEDGE</p><h2>Kiểm tra nhanh</h2></div></div>
+      <div class="quiz-card">
+        <div class="quiz-top"><span id="questionNumber">Câu 1/10</span><span id="quizStatus">Chọn đáp án đúng</span></div>
+        <div class="progress-track"><div id="quizProgress"></div></div>
+        <h3 id="questionText">Từ “Apple” có nghĩa là gì?</h3>
+        <div id="answerList" class="answers"></div>
+        <div class="quiz-actions"><p id="feedback" aria-live="polite"></p><button id="nextBtn" class="primary-btn" disabled>Câu tiếp theo</button></div>
+      </div>
+    </section>
+
+    <section class="section about">
+      <div><p class="eyebrow">ABOUT THE PLATFORM</p><h2>Học tập đơn giản,<br>tiến bộ mỗi ngày.</h2></div>
+      <p>Learn English là ứng dụng học tiếng Anh cơ bản, hỗ trợ người học ghi nhớ từ vựng, luyện tập kiến thức và theo dõi kết quả. Dữ liệu tiến độ được lưu trên trình duyệt đang sử dụng.</p>
+    </section>
+  </main>
+  <footer>© 2026 Learn English · Learn English Every Day.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
