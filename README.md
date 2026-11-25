@@ -22,3 +22,12 @@ Mở tệp `index.html` bằng trình duyệt Chrome, Edge hoặc Firefox.
 
 ## Lưu ý
 Đây là ứng dụng web tĩnh phục vụ bài thực hành. Dữ liệu học tập được lưu trên trình duyệt của từng thiết bị; chưa có tài khoản người dùng hoặc cơ sở dữ liệu dùng chung.
+## Quy trình phát triển
+
+- Nhánh main: Lưu trữ phiên bản chính thức của ứng dụng.
+- Nhánh feature/learn-english-improvement: Phát triển và cập nhật tính năng.
+- Sau khi hoàn thành cập nhật, tạo Pull Request để đề xuất hợp nhất vào nhánh main.
+
+## Phiên bản cập nhật
+
+Learn English hỗ trợ học từ vựng, kiểm tra kiến thức và theo dõi tiến độ học tập.
